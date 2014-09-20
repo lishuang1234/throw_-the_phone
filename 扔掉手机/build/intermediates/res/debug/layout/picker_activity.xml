@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/pickerAc_rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/activities_title_back"
+        android:fitsSystemWindows="true" >
+
+        <ImageButton
+            android:id="@+id/pickerAc_ibtn_noentrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/pickerac_btn_noentrue_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置治疗时间"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/pickerAc_ibtn_entrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pickerac_btn_entrue_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TimePicker
+            android:id="@+id/pickerAc_tp_picker"
+            style="@android:style/Theme.Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/pickerAc_rl_setchongfu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/settingac_item_selector"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/settingAc_tx_t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="设置重复"
+                android:textColor="#009966"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_arrow" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/add"
+            android:layout_width="fill_parent"
+            android:layout_height="1.5dp"
+            android:background="#f2f2f2"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/pickerAc_rl_setshichang"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/settingac_item_selector"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/settingAc_tx_t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="设置时长"
+                android:textColor="#009966"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_arrow" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pickerAc_rl_cancleJihua"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/settingac_item_selector"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/settingAc_tx_t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="删除计划"
+                android:textColor="#009966"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/picker_activity.xml -->

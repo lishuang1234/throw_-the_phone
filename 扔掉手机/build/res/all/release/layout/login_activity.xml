@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/activity_bg" />
+
+    <ImageButton
+        android:id="@+id/qzone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="72dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/ic_btn_bg_qq_default"
+        android:src="@drawable/ic_btn_qq" />
+
+    <ImageButton
+        android:id="@+id/sinaweibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/qzone"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/ic_btn_bg_weibo_default"
+        android:src="@drawable/ic_btn_weibo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/qzone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="选择账号登录" />
+
+</RelativeLayout><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/layout/login_activity.xml -->

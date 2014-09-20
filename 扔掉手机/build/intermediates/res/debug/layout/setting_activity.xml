@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/settingAc_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+   
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/setting_shape_rectangle"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_shiyongshuoming"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_item_selector"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/settingAc_img_p1"
+                    android:layout_width="40dp"
+                    android:layout_height="43dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/ic_shiyongshuoming" />
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/settingAc_img_p1"
+                    android:text="使用说明"
+                    android:textColor="#009966"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/add"
+                android:layout_width="fill_parent"
+                android:layout_height="1.5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_tieshi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_item_selector"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/settingAc_img_p2"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_jiankangtieshi" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/settingAc_img_p2"
+                    android:text="健康贴士"
+                    android:textColor="#009966"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_chenfa"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_item_selector"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/settingAc_img_p3"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_changfafangshi" />
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/settingAc_img_p3"
+                    android:text="惩罚方式"
+                    android:textColor="#009966"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_jihua"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_item_selector"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/settingAc_img_p4"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/ic_zhiliaojihua" />
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/settingAc_img_p4"
+                    android:text="计划治疗"
+                    android:textColor="#009966"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/setting_shape_rectangle"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_guanyu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_item_selector"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/settingAc_img_p5"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/find_more_friend_scan" />
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/settingAc_img_p5"
+                    android:text="关于应用"
+                    android:textColor="#009966"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1.5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_tuijian"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_item_selector"
+                android:clickable="true" >
+
+                <ImageView
+                    android:id="@+id/settingAc_img_p6"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/find_more_friend_bottle" />
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/settingAc_img_p6"
+                    android:text="推荐给好友"
+                    android:textColor="#009966"
+                    android:textSize="22sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="13dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/settingAc_rl_tuichu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/settingac_logout_selector"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/settingAc_tx_t7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="退出登录账号"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+             
+            <LinearLayout
+                android:id="@+id/add9"
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+   </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/setting_activity.xml -->

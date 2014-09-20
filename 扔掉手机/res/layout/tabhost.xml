@@ -1,0 +1,67 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity" 
+    android:id="@android:id/tabhost"
+    android:background="@drawable/activity_bg">
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <FrameLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:id="@android:id/tabcontent"></FrameLayout>
+        <TabWidget 
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.0"></TabWidget>
+        <RadioGroup 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:background="#339900"
+            android:orientation="horizontal"
+            android:id="@+id/group">
+            <RadioButton 
+                android:id="@+id/btu_start"
+                style="@style/btu_style"
+                android:text="开始"
+                android:tag="start"
+                android:drawableTop="@drawable/icon_1_n"
+                />
+             <RadioButton 
+              android:id="@+id/btu_me"
+                style="@style/btu_style"
+                android:text="我"
+                android:tag="me"
+                android:drawableTop="@drawable/icon_3_n"
+                />
+             
+             
+              <RadioButton 
+                android:id="@+id/btu_setting"
+                style="@style/btu_style"
+                android:text="设置"
+                android:tag="setting"
+                android:drawableTop="@drawable/icon_5_n"
+                />
+       <!--       <RadioButton 
+              android:id="@+id/btu_about"
+                style="@style/btu_style"
+                android:text="关于"
+                android:tag="about"
+                android:drawableTop="@drawable/icon_4_n"
+                />
+           --> 
+        </RadioGroup>
+        
+        
+        
+    </LinearLayout>
+  
+</TabHost>

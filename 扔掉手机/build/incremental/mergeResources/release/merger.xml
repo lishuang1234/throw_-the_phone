@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\Github_android\AndroidWorkSpace\扔掉手机\res" >
+            <file
+                name="activities_title_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\activities_title_back.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="activity_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\activity_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="allac_btn_back_normal"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\allac_btn_back_normal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="allac_btn_back_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\allac_btn_back_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_0"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_0.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_1"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_1.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_2"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_2.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_3"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_3.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_4"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_4.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_5"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_5.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_6"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_6.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_7"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_7.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_8"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_8.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_9"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="digital_number_colon"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\digital_number_colon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="find_more_friend_bottle"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\find_more_friend_bottle.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="find_more_friend_near_icon"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\find_more_friend_near_icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="find_more_friend_photograph_icon"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\find_more_friend_photograph_icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="find_more_friend_scan"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\find_more_friend_scan.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="find_more_friend_shake"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\find_more_friend_shake.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="forbidac_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\forbidac_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_1_n"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\icon_1_n.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_2_n"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\icon_2_n.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_3_n"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\icon_3_n.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_4_n"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\icon_4_n.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon_5_n"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\icon_5_n.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_arrow"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_arrow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_qiliao"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_qiliao.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_qq_default"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_qq_default.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_qq_pressed"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_qq_pressed.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_share_default"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_share_default.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_share_pressed"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_share_pressed.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_start_blue"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_start_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_weibo_default"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_weibo_default.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_bg_weibo_pressed"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_bg_weibo_pressed.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_mode0_fail"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_mode0_fail.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_mode1_fail"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_mode1_fail.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_mode2_fail"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_mode2_fail.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_qq"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_qq.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_share_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_share_back.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_btn_weibo"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_btn_weibo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_circle_large_blue"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_circle_large_blue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_circle_large_red"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_circle_large_red.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_circle_large_yellow"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_circle_large_yellow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_share_qq"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\ic_share_qq.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="logoac_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\logoac_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="myinforactivity_user_photo"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\myinforactivity_user_photo.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="picker_btn_entrue"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\picker_btn_entrue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="picker_btn_entrue_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\picker_btn_entrue_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="picker_btn_noentrue"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\picker_btn_noentrue.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="picker_btn_noentrue_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\picker_btn_noentrue_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="planac_ibtn_plus_normal"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\planac_ibtn_plus_normal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="planac_ibtn_plus_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\planac_ibtn_plus_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="settingactivity_item_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\settingactivity_item_back.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="startac_btn_change"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\startac_btn_change.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="startac_btn_start"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\startac_btn_start.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_btn_bg_d"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\tab_btn_bg_d.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_btn_bg_n"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\tab_btn_bg_n.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab_btn_bg_s"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\tab_btn_bg_s.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_clock_normal"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\titleview_btn_clock_normal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_clock_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\titleview_btn_clock_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_shuoming_normal"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\titleview_btn_shuoming_normal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_shuoming_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\titleview_btn_shuoming_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_tieshi_normal"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\titleview_btn_tieshi_normal.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_tieshi_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\titleview_btn_tieshi_press.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="warninfor_mode1_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\warninfor_mode1_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="warninfor_mode2_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\warninfor_mode2_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="warninfor_mode3_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\warninfor_mode3_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="workstate_fail_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\workstate_fail_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="workstate_success_bg"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\workstate_success_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="xiugai_btu"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-hdpi\xiugai_btu.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_share"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\btn_share.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="btu_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\btu_back.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="myinfor_shape"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\myinfor_shape.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="pickerac_btn_entrue_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\pickerac_btn_entrue_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="pickerac_btn_noentrue_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\pickerac_btn_noentrue_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="planac_btn_plus_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\planac_btn_plus_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="settingac_chenfaitem_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\settingac_chenfaitem_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="settingac_settingitem_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\settingac_settingitem_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="settingac_tuichu_bg_normal"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\settingac_tuichu_bg_normal.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="setting_shape_rectangle"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\setting_shape_rectangle.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="setting_shape_rectangle_press"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\setting_shape_rectangle_press.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_back_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\titleview_btn_back_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_clock_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\titleview_btn_clock_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_shuoming_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\titleview_btn_shuoming_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="titleview_btn_tieshi_selector"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-mdpi\titleview_btn_tieshi_selector.xml"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="activities_title_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\activities_title_back.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="auth_follow_cb_chd"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\auth_follow_cb_chd.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="auth_follow_cb_unc"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\auth_follow_cb_unc.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="auth_title_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\auth_title_back.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="btn_back_nor"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\btn_back_nor.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="btn_cancel_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\btn_cancel_back.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="edittext_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\edittext_back.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="gray_point"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\gray_point.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="img_cancel"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\img_cancel.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_douban"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_douban.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_dropbox"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_dropbox.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_email"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_email.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_evernote"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_evernote.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_facebook"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_facebook.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_flickr"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_flickr.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_foursquare"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_foursquare.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_googleplus"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_googleplus.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_instagram"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_instagram.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_kaixin"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_kaixin.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_linkedin"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_linkedin.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_mingdao"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_mingdao.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_neteasemicroblog"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_neteasemicroblog.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_pinterest"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_pinterest.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_qq"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_qq.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_qzone"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_qzone.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_renren"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_renren.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_shortmessage"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_shortmessage.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_sinaweibo"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_sinaweibo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_sohumicroblog"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_sohumicroblog.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_sohusuishenkan"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_sohusuishenkan.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_tencentweibo"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_tencentweibo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_tumblr"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_tumblr.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_twitter"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_twitter.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_vkontakte"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_vkontakte.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_wechat"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_wechat.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_wechatfavorite"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_wechatfavorite.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_wechatmoments"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_wechatmoments.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_yixin"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_yixin.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_yixinmoments"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_yixinmoments.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="logo_youdao"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\logo_youdao.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="pin"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\pin.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="share_tb_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\share_tb_back.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="share_vp_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\share_vp_back.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ssdk_auth_title_back"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\ssdk_auth_title_back.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ssdk_back_arr"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\ssdk_back_arr.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ssdk_logo"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\ssdk_logo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ssdk_title_div"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\ssdk_title_div.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="title_shadow"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\title_shadow.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="white_point"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xhdpi\white_point.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="about_activity_chenfa"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\about_activity_chenfa.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="about_activity_guanyu"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\about_activity_guanyu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="about_activity_shuoming"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\about_activity_shuoming.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="about_activity_tieshi"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\about_activity_tieshi.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="cishupicker"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\cishupicker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="forbid_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\forbid_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="guanyu_dia_bangzhufankui"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\guanyu_dia_bangzhufankui.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="guanyu_dia_kaifarenyuan"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\guanyu_dia_kaifarenyuan.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="guanyu__dia_banbenggengxin"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\guanyu__dia_banbenggengxin.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="listview_item"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\listview_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="login_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\login_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="logo_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\logo_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="myinfor_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\myinfor_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="picker_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\picker_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="planlist_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\planlist_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="setting_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\setting_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="start_activity"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\start_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tabhost"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\tabhost.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="timepicker"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\timepicker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="title"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\title.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="warninfor_activity_mode1"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\warninfor_activity_mode1.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="warninfor_activity_mode2"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\warninfor_activity_mode2.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="warninfor_activity_mode3"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\warninfor_activity_mode3.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="workstate_fail"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\workstate_fail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="workstate_success"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\layout\workstate_success.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values\oks_strings.xml"
+                qualifiers="" >
+                <string name="list_friends" >%s的朋友
+                </string>
+                <string name="release_to_refresh" >松开刷新
+                </string>
+                <string name="select_one_plat_at_least" >请选择一个目标平台
+                </string>
+                <string name="share_completed" >分享成功
+                </string>
+                <string name="share_failed" >分享失败
+                </string>
+                <string name="finish" >完成
+                </string>
+                <string name="refreshing" >刷新中…
+                </string>
+                <string name="share_canceled" >分享已取消
+                </string>
+                <string name="sharing" >分享操作正在后台进行…
+                </string>
+                <string name="cancel" >取消
+                </string>
+                <string name="multi_share" >图文分享
+                </string>
+                <string name="pull_to_refresh" >下拉刷新
+                </string>
+                <string name="share_to" >分享到
+                </string>
+                <string name="share" >分享
+                </string>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values\ssdk_strings.xml"
+                qualifiers="" >
+                <string name="yixin_client_inavailable" >目前您的易信版本过低或未安装易信，需要安装易信才能使用
+                </string>
+                <string name="app_downloading" >应用正在后台下载
+                </string>
+                <string name="linkedin" >Linked In
+                </string>
+                <string name="youdao" >有道云笔记
+                </string>
+                <string name="facebook" >Facebook
+                </string>
+                <string name="instagram" >Instagram
+                </string>
+                <string name="vkontakte" >VK
+                </string>
+                <string name="tencentweibo" >腾讯微博
+                </string>
+                <string name="wechatmoments" >微信朋友圈
+                </string>
+                <string name="evernote" >印象笔记
+                </string>
+                <string name="kaixin" >开心网
+                </string>
+                <string name="douban" >豆瓣
+                </string>
+                <string name="download_faield" >下载失败
+                </string>
+                <string name="qzone" >QQ空间
+                </string>
+                <string name="share_to_qzone" >分享到QQ空间
+                </string>
+                <string name="foursquare" >FourSquare
+                </string>
+                <string name="qq" >QQ
+                </string>
+                <string name="sohumicroblog" >搜狐微博
+                </string>
+                <string name="pinterest_client_inavailable" >Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！
+                </string>
+                <string name="google_plus_client_inavailable" >Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！
+                </string>
+                <string name="wechat" >微信好友
+                </string>
+                <string name="tumblr" >Tumblr
+                </string>
+                <string name="renren" >人人网
+                </string>
+                <string name="share_to_mingdao" >分享到明道
+                </string>
+                <string name="instagram_client_inavailable" >Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！
+                </string>
+                <string name="flickr" >Flickr
+                </string>
+                <string name="pinterest" >Pinterest
+                </string>
+                <string name="twitter" >Twitter
+                </string>
+                <string name="email" >邮件
+                </string>
+                <string name="incentive_title" >分享有奖
+                </string>
+                <string name="dropbox" >Dropbox
+                </string>
+                <string name="googleplus" >Google+
+                </string>
+                <string name="wechatfavorite" >微信收藏
+                </string>
+                <string name="qq_client_inavailable" >QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！
+                </string>
+                <string name="yixin" >易信
+                </string>
+                <string name="mingdao_share_content" >网页分享
+                </string>
+                <string name="sohusuishenkan" >搜狐随身看
+                </string>
+                <string name="shortmessage" >信息
+                </string>
+                <string name="failed_to_start_incentive_page" >无法打开“分享有奖页面”
+                </string>
+                <string name="sinaweibo" >新浪微博
+                </string>
+                <string name="wechat_client_inavailable" >目前您的微信版本过低或未安装微信，需要安装微信才能使用
+                </string>
+                <string name="weibo_oauth_regiseter" >应用授权
+                </string>
+                <string name="neteasemicroblog" >网易微博
+                </string>
+                <string name="weibo_upload_content" >分享图片
+                </string>
+                <string name="website" >http://www.shareSDK.cn
+                </string>
+                <string name="mingdao" >明道
+                </string>
+                <string name="yixinmoments" >易信朋友圈
+                </string>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="forbid_title2" >正在进行全天陪护治疗
+                </string>
+                <string name="forbid_title1" >剩余玩机时长
+                </string>
+                <string name="forbid_title0" >正在治疗手机已被锁定
+                </string>
+                <string name="startAc_txLarge_mode2" >疾病预防
+                </string>
+                <string name="startAc_txLarge_mode3" >全天陪护
+                </string>
+
+                <color name="settingAc_item_press" >#f2f2f2
+                </color>
+
+                <string name="startAc_txLarge_mode1" >立即治疗
+                </string>
+                <string name="startAc_txSmall_mode3" >"持续使用如下时间锁定手机"
+                </string>
+                <string name="startAc_txSmall_mode2" >"使用超过如下时间锁定手机"
+                </string>
+                <string name="forbidAc_btn_qiliao" >"弃疗"
+                </string>
+                <string name="startAc_txSmall_mode1" >"在如下时间段内锁定手机"
+                </string>
+
+                <color name="green_deep" >#339900
+                </color>
+                <color name="settingAc_tx_content" >#009966
+                </color>
+                <color name="forbidAc_view_circle" >#90EE90
+                </color>
+                <color name="settingAc_tx_title" >#ff6633
+                </color>
+
+                <string name="app_name" >何弃疗
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+
+                <color name="green_light" >#33CC33
+                </color>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="btu_style" >
+                    <item name="android:button">
+@null
+                    </item>
+                    <item name="android:textSize">
+13.0dip
+                    </item>
+                    <item name="android:textColor">
+#ffffffff
+                    </item>
+                    <item name="android:gravity">
+center_horizontal
+                    </item>
+                    <item name="android:background">
+@drawable/btu_back
+                    </item>
+                    <item name="android:paddingTop">
+4.5dip
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+50dp
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                    <item name="android:drawablePadding">
+3.0dip
+                    </item>
+                    <item name="android:layout_weight">
+1.0
+                    </item>
+                    <item name="android:ellipsize">
+marquee
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values-en\oks_strings.xml"
+                qualifiers="en" >
+                <string name="refreshing" >Refreshing…
+                </string>
+                <string name="share_to" >Share to 
+                </string>
+                <string name="release_to_refresh" >Release to refresh
+                </string>
+                <string name="share_canceled" >Operation canceled
+                </string>
+                <string name="select_one_plat_at_least" >Please select a target platform
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="share_failed" >Operation failed
+                </string>
+                <string name="sharing" >Sharing operation is working in the background…
+                </string>
+                <string name="pull_to_refresh" >Pull down to refresh
+                </string>
+                <string name="multi_share" >Photo Sharing
+                </string>
+                <string name="share_completed" >Operation succeeded
+                </string>
+                <string name="share" >Share
+                </string>
+                <string name="finish" >Finish
+                </string>
+                <string name="list_friends" >Friends on %s
+                </string>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values-en\ssdk_strings.xml"
+                qualifiers="en" >
+                <string name="flickr" >Flickr
+                </string>
+                <string name="share_to_mingdao" >Share To Mingdao
+                </string>
+                <string name="app_downloading" >App is downloading
+                </string>
+                <string name="youdao" >Youdao
+                </string>
+                <string name="email" >Email
+                </string>
+                <string name="linkedin" >Linked in
+                </string>
+                <string name="neteasemicroblog" >Netease Microblog
+                </string>
+                <string name="instagram" >Instagram
+                </string>
+                <string name="qq" >QQ
+                </string>
+                <string name="foursquare" >FourSquare
+                </string>
+                <string name="vkontakte" >VK
+                </string>
+                <string name="weibo_oauth_regiseter" >Authorization
+                </string>
+                <string name="website" >http://www.shareSDK.cn
+                </string>
+                <string name="sohumicroblog" >Sohu Microblog
+                </string>
+                <string name="yixin" >Yixin
+                </string>
+                <string name="kaixin" >Kaixin
+                </string>
+                <string name="qzone" >QZone
+                </string>
+                <string name="yixinmoments" >Yixin Moments
+                </string>
+                <string name="mingdao_share_content" >Share webpage
+                </string>
+                <string name="download_faield" >Download Failed
+                </string>
+                <string name="googleplus" >Google+
+                </string>
+                <string name="weibo_upload_content" >分享图片
+                </string>
+                <string name="facebook" >Facebook
+                </string>
+                <string name="mingdao" >Mingdao
+                </string>
+                <string name="pinterest" >Pinterest
+                </string>
+                <string name="instagram_client_inavailable" >Instagram client not exists or the version is too low
+                </string>
+                <string name="renren" >Renren
+                </string>
+                <string name="share_to_qzone" >Share To QZone
+                </string>
+                <string name="pinterest_client_inavailable" >Pinterest client not exists or the version is too low
+                </string>
+                <string name="wechat_client_inavailable" >Wechat client not exists or the version is too low
+                </string>
+                <string name="qq_client_inavailable" >Mobile QQ client not exists or the version is too low
+                </string>
+                <string name="twitter" >Twitter
+                </string>
+                <string name="shortmessage" >Short Message
+                </string>
+                <string name="failed_to_start_incentive_page" >Failed to Start Sharing Incentives Page
+                </string>
+                <string name="sohusuishenkan" >Sohu Suishenkan
+                </string>
+                <string name="tencentweibo" >Tencent Weibo
+                </string>
+                <string name="google_plus_client_inavailable" >Google+ client not exists or the version is too low
+                </string>
+                <string name="dropbox" >Dropbox
+                </string>
+                <string name="yixin_client_inavailable" >Yixin client not exists or the version is too low
+                </string>
+                <string name="tumblr" >Tumblr
+                </string>
+                <string name="wechat" >Wechat
+                </string>
+                <string name="wechatmoments" >Wechat Moments
+                </string>
+                <string name="sinaweibo" >Sina Weibo
+                </string>
+                <string name="evernote" >Evernote
+                </string>
+                <string name="douban" >Douban
+                </string>
+                <string name="wechatfavorite" >Wechat Favorite
+                </string>
+                <string name="incentive_title" >Sharing Incentives
+                </string>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="D:\Github_android\AndroidWorkSpace\扔掉手机\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="D:\Github_android\AndroidWorkSpace\扔掉手机\build\res\rs\release" />
+        <source path="D:\Github_android\AndroidWorkSpace\扔掉手机\build\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="D:\Github_android\AndroidWorkSpace\扔掉手机\build-types\release\res" />
+    </dataSet>
+
+</merger>

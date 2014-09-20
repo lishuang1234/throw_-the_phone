@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/aboutAc_shuoming_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text="1.本应用目的"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutAc_shuoming_tx_title1"
+            android:text="治疗当代 疑难杂症--手机依赖症 。"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text="2.立即治疗模式"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutAc_shuoming_tx_title1"
+            android:text="立即接受治疗在预定时间内锁定手机 。"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text="3.疾病预防模式"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutAc_shuoming_tx_title1"
+            android:text="约定今日手机使用时长，超过时长自动锁定手机。 "
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text="4.全天陪护模式"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_shuoming_tx_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutAc_shuoming_tx_title1"
+            android:text="持续使用预定时间提醒用户注意 休息，全天有效。"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/layout/about_activity_shuoming.xml -->

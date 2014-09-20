@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/aboutAc_chengfa_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <RelativeLayout
+        android:id="@+id/aboutAc_chenfa_rl_yanli"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/settingac_chenfaitem_selector"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/chengfa_img_rude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_study_mode_rude" />
+
+        <TextView
+            android:id="@+id/aboutAc_chenfa_tx_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/chengfa_img_rude"
+            android:text="严厉模式"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_chenfa_tx_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/aboutAc_chenfa_tx_title1"
+            android:layout_below="@id/aboutAc_chenfa_tx_title1"
+            android:text="治疗失败，将在社交网络上被鄙视"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/aboutAc_chenfa_cb_yanli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="true"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboutAc_chenfa_rl_wenrou"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/settingac_chenfaitem_selector"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/chengfa_img_gentle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_study_mode_gentle" />
+
+        <TextView
+            android:id="@+id/aboutAc_chenfa_tx_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/chengfa_img_gentle"
+            android:text="温和模式"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_chenfa_tx_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/aboutAc_chenfa_tx_title2"
+            android:layout_below="@id/aboutAc_chenfa_tx_title2"
+            android:text="治疗失败，不会被惩罚"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/aboutAc_chenfa_cb_wenrou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:clickable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboutAc_chenfa_rl_jianchi"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/settingac_chenfaitem_selector"
+        android:clickable="true" >
+
+        <ImageView
+            android:id="@+id/chengfa_img_stick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_study_mode_stick" />
+
+        <TextView
+            android:id="@+id/aboutAc_chenfa_tx_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/chengfa_img_stick"
+            android:text="坚持模式（慎用）"
+            android:textColor="#ff6633"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutAc_chenfa_tx_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/aboutAc_chenfa_tx_title3"
+            android:layout_below="@id/aboutAc_chenfa_tx_title3"
+            android:text="无治疗失败选项，坚持到底"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/aboutAc_chenfa_cb_jianchi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:clickable="false" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/about_activity_chenfa.xml -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/workstate_fail_bg" >
+
+    <ImageButton
+        android:id="@+id/workstateAc_ibtn_fail_yanli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn_share"
+        android:src="@drawable/ic_share_qq"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/workstateAc_ibtn_fail_wenrou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/btn_share"
+        android:src="@drawable/ic_btn_share_back"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/layout/workstate_fail.xml -->

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/strings.xml -->
+    <eat-comment />
+
+    <color name="forbidAc_view_circle">#90EE90</color>
+    <color name="green_deep">#339900</color>
+    <color name="green_light">#33CC33</color>
+    <color name="settingAc_item_press">#f2f2f2</color>
+    <color name="settingAc_tx_content">#009966</color>
+    <color name="settingAc_tx_title">#ff6633</color>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="app_downloading">应用正在后台下载</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">何弃疗</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="cancel">取消</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="douban">豆瓣</string>
+    <string name="download_faield">下载失败</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="failed_to_start_incentive_page">无法打开“分享有奖页面”</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="finish">完成</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="flickr">Flickr</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="forbidAc_btn_qiliao">"弃疗"</string>
+    <string name="forbid_title0">正在治疗手机已被锁定</string>
+    <string name="forbid_title1">剩余玩机时长</string>
+    <string name="forbid_title2">正在进行全天陪护治疗</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="incentive_title">分享有奖</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="kaixin">开心网</string>
+    <string name="linkedin">Linked In</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="list_friends">%s的朋友</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="multi_share">图文分享</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="pull_to_refresh">下拉刷新</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="refreshing">刷新中…</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="renren">人人网</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/oks_strings.xml -->
+    <eat-comment />
+
+    <string name="sharing">分享操作正在后台进行…</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="startAc_txLarge_mode1">立即治疗</string>
+    <string name="startAc_txLarge_mode2">疾病预防</string>
+    <string name="startAc_txLarge_mode3">全天陪护</string>
+    <string name="startAc_txSmall_mode1">"在如下时间段内锁定手机"</string>
+    <string name="startAc_txSmall_mode2">"使用超过如下时间锁定手机"</string>
+    <string name="startAc_txSmall_mode3">"持续使用如下时间锁定手机"</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/ssdk_strings.xml -->
+    <eat-comment />
+
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.shareSDK.cn</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="btu_style">
+        <item name="android:button">@null</item>
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/btu_back</item>
+        <item name="android:paddingTop">4.5dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">3.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+</resources>

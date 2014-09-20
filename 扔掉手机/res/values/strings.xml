@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">何弃疗</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="forbid_title1">剩余玩机时长</string>
+    <string name="forbid_title0">正在治疗,手机已被锁定</string>
+    <string name="forbid_title2">正在进行全天陪护治疗</string>
+    <string name="forbidAc_btn_qiliao">"弃疗"</string>
+
+    <color name="green_light">#33CC33</color>
+    <color name="green_deep">#339900</color>
+    <color name="forbidAc_view_circle">#90EE90</color>
+    <color name="settingAc_item_press">#f2f2f2</color>
+    <color name="settingAc_tx_title">#ff6633</color>
+    <color name="settingAc_tx_content">#009966</color>
+    <color name="myinforAc_tx_chenghao_0">#ffcc33</color>
+    <color name="myinforAc_tx_chenghao_1">#ff9933</color>
+    <color name="myinforAc_tx_chenghao_2">#ff6633</color>
+    <color name="myinforAc_tx_chenghao_3">#ff3333</color>
+    <color name="myinforAc_tx_chenghao_4">#ff0033</color>
+    <color name="loginAc_v_progrssDia_bg">#CCCCCC</color>
+    <color name="settingAc_logout_normal">#FF3300</color>
+    <color name="settingAc_logout_press">#FF3366</color>
+
+    <string name="startAc_txLarge_mode1">立即治疗</string>
+    <string name="startAc_txSmall_mode1">"在如下时间段内锁定手机"</string>
+    <string name="startAc_txLarge_mode2">疾病预防</string>
+    <string name="startAc_txSmall_mode2">"使用超过如下时间锁定手机"</string>
+    <string name="startAc_txLarge_mode3">全天陪护</string>
+    <string name="startAc_txSmall_mode3">"持续使用如下时间锁定手机"</string>
+
+</resources>

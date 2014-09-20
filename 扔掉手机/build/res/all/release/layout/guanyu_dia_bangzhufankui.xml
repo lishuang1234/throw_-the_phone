@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/setting_shape_rectangle" >
+
+    <RelativeLayout
+        android:id="@+id/guanyu_dia_ll_line"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/activities_title_back"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/guanyu_dia_banbenggengxin_tx_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="版本更新"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/fankuineirong"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/guanyu_dia_ll_line"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:hint="请填写您的反馈与所需帮助"
+        android:textColor="@color/settingAc_tx_content" />
+
+    <Button
+        android:id="@+id/guanyu_dia_btn_bangzhuyufankui_entrue"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/fankuineirong"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setting_shape_rectangle_press"
+        android:text="确认"
+        android:textColor="@color/settingAc_tx_content" />
+
+    <Button
+        android:id="@+id/guanyu_dia_btn_bangzhuyufankui_cancle"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fankuineirong"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/setting_shape_rectangle_press"
+        android:text="取消"
+        android:textColor="@color/settingAc_tx_content" />
+
+</RelativeLayout><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/layout/guanyu_dia_bangzhufankui.xml -->

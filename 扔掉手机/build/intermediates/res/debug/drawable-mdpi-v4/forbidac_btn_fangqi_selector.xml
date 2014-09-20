@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape android:shape="oval">
+            <solid android:color="#CCFFFF" />
+        </shape></item>
+    <item><shape android:shape="oval">
+            <solid android:color="@android:color/white" />
+        </shape></item>
+
+</selector><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/drawable-mdpi/forbidac_btn_fangqi_selector.xml -->

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/aboutAc_guanyu_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="何弃疗"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="V 1.0.0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/setting_shape_rectangle"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/aboutAc_guanyu_rl_banbengengxin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/settingac_settingitem_selector"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAcAc_tx_t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="版本更新"
+                    android:textColor="#009966"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/add"
+                android:layout_width="fill_parent"
+                android:layout_height="1.5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/aboutAcAc_guanyu_rl_kaifarenyuan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/settingac_settingitem_selector"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAcAc_tx_t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="开发人员"
+                    android:textColor="#009966"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/add2"
+                android:layout_width="fill_parent"
+                android:layout_height="1.5dp"
+                android:background="#f2f2f2"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/aboutAc_guanyu_rl_bangzhufankui"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/settingac_settingitem_selector"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAc_tx_t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:text="帮助与反馈"
+                    android:textColor="#009966"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ic_arrow" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:singleLine="true"
+        android:text="Copyright @2014 LS All Rights Reserved"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#009966" />
+
+</RelativeLayout><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/layout/about_activity_guanyu.xml -->

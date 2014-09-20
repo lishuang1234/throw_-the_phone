@@ -1,0 +1,62 @@
+<!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" android:versionCode="1" android:versionName="1.0" package="cn.ls.activity">
+
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:persistent="true" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="cn.ls.activity.LogoActivity" android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.ls.activity.MyInforActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.LoginActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.SettingActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.StartActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.AboutActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.Tab" android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity android:launchMode="singleTask" android:name="cn.ls.activity.ForbidActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.WorkState" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:launchMode="singleInstance" android:name="cn.ls.activity.WarnInfor" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.PickerActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        </activity>
+        <activity android:name="cn.ls.activity.PlanListActivity" android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="cn.sharesdk.framework.ShareSDKUIShell" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <service android:enabled="true" android:name="cn.ls.service.MainService">
+            <intent-filter>
+                <action android:name="cn.ls.service.main_service" android:priority="1000"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name="cn.ls.activity.RemoteServiceBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

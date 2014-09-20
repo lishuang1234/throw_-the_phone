@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/startAc_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <cn.ls.view.StartButton
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="325dp"
+        android:layout_below="@id/startAc_title" />
+
+    <Button
+        android:id="@+id/start_chang_btn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/small_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/startac_btn_change" />
+
+    <ImageButton
+        android:id="@+id/small_btn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/start_btn"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/startac_btn_start" />
+
+    <ImageView
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/start_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/xiugai_btu" />
+
+    <TextView
+        android:id="@+id/startAc_tx_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="@string/startAc_txSmall_mode1"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/startAc_tx_large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startAc_tx_small"
+        android:layout_centerHorizontal="true"
+        android:text="@string/startAc_txLarge_mode1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/layout/start_activity.xml -->

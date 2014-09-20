@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.3.7-d2c7260dd31273327224038d496fa37c571cf20b.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\ShareSDK-QZone-2.3.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4bfbbb26f3604faadd11003a7667d2fbf2eb17d8"/>
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\android-support-v4-124db36f4bb2d1e06201cbfb738e45de429f8e4c.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.3.7-4ab334b546cfefa0b725ea1776c910786ac8bf58.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\ShareSDK-SinaWeibo-2.3.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="b68d40e64d864e2ecafe7e4eb3ed3786e722a131"/>
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\achartengine-1.1.0-830ea112d565c698949e1dfb938670f04a2334e3.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250"/>
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.3.7-9710162400fddfc8b7eb93ec79ee14c6ba67da89.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\ShareSDK-QQ-2.3.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c16b41faab4bc7737573d32b70bc71ea52863105"/>
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.3.7-aed042d92b150f2c2f6ecd4ba54d3ef4a79dfa58.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\ShareSDK-Core-2.3.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="df6385791bdc0eab3414d903d65d272dca1c4413"/>
+    <item
+        dex="D:\studioWorkSpace\扔掉手机\扔掉手机\build\intermediates\pre-dexed\debug\mframework-de0052226c0bd14f9741ee574cd74d5db66dd310.jar"
+        jar="D:\studioWorkSpace\扔掉手机\扔掉手机\libs\mframework.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200"/>
+
+</pre-dex-items>

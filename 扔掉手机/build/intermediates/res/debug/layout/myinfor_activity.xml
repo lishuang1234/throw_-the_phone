@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="top" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/myinforAc_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <RelativeLayout
+        android:id="@+id/myinforAc_rl_above"
+        android:layout_width="fill_parent"
+        android:layout_height="195dp"
+        android:layout_below="@id/myinforAc_title"
+        android:background="#33CC33" >
+
+        <RelativeLayout
+            android:id="@+id/myinforAc_rl_infor"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/my_infor_shape_selector"
+            android:clickable="true">
+
+            <cn.ls.view.CircleImagine
+                android:id="@+id/user_photo"
+                android:layout_width="56dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/myinforactivity_user_photo" >
+            </cn.ls.view.CircleImagine>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/user_photo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/user_photo"
+                android:text="用户名"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/myinforAc_img_qq"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@id/user_name"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/user_name"
+                android:src="@drawable/ic_btn_qq"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/myinforAc_img_weibo"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@id/user_name"
+   
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@id/user_name"
+                android:src="@drawable/ic_btn_weibo"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/chenghao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/user_photo"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/user_photo"
+                android:text="称号"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/myinforAc_rl_show"
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/myinforAc_rl_infor"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/my_infor_shape_selector"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/myinfor_tx_jinrititle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:text="今日手机已使用："
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myinfor_tx_pingjuntime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myinfor_tx_pingjuntitle"
+                android:layout_alignBottom="@+id/myinfor_tx_pingjuntitle"
+                android:layout_toRightOf="@+id/myinfor_tx_jinrititle"
+                android:text="xx:xx:xx"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myinfor_tx_pingjuntitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/myinfor_tx_jinrititle"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="14dp"
+                android:text="平均每天使用："
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/myinfor_tx_jinritime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/myinfor_tx_jinrititle"
+                android:layout_alignBottom="@+id/myinfor_tx_jinrititle"
+                android:layout_alignLeft="@+id/myinfor_tx_pingjuntime"
+                android:layout_marginLeft="14dp"
+                android:text="00:00:00"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_btn_share"
+                android:layout_toRightOf="@id/myinfor_tx_jinritime"
+                android:layout_alignTop="@id/myinfor_tx_jinritime"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/myinfor_tx_charttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myinforAc_rl_above"
+        android:layout_centerHorizontal="true"
+        android:text="本月使用情况统计"
+        android:textColor="@color/green_light"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/myinforAc_ll_chartshow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/myinfor_tx_charttitle"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/myinfor_activity.xml -->

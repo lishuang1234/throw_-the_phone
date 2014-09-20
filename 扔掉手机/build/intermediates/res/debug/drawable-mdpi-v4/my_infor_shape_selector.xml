@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/myinfor_shape_press" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/myinfor_shape" android:state_enabled="true"></item>
+
+</selector><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/drawable-mdpi/my_infor_shape_selector.xml -->

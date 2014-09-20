@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/activity_bg">
+    <cn.ls.view.TitleView
+        android:id="@+id/myinfor_chenghao_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text=" 安卓接触者"
+            android:textColor="@color/myinforAc_tx_chenghao_0"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myInfor_chenghao_tx_title1"
+            android:text="手机使用小于1小时得此称号"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text=" 安卓感染者"
+            android:textColor="@color/myinforAc_tx_chenghao_1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myInfor_chenghao_tx_title2"
+            android:text="手机使用1~2小时得此称号"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text=" 安卓依赖患者"
+            android:textColor="@color/myinforAc_tx_chenghao_2"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_content3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myInfor_chenghao_tx_title3"
+            android:text="手机使用2~3小时得此称号"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text=" 安卓重症患者"
+            android:textColor="@color/myinforAc_tx_chenghao_3"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_content4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myInfor_chenghao_tx_title4"
+            android:text="手机使用3~41小时得此称号"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/setting_shape_rectangle"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="5dp"
+            android:text=" 安卓病危患者"
+            android:textColor="@color/myinforAc_tx_chenghao_4"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myInfor_chenghao_tx_content5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/myInfor_chenghao_tx_title5"
+            android:text="手机使用大于4小时得此称号"
+            android:textColor="#009966"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/myinfor_ll_chenghao.xml -->

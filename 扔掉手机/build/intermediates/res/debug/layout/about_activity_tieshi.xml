@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <cn.ls.view.TitleView
+        android:id="@+id/aboutAc_tieshi_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/activities_title_back" >
+    </cn.ls.view.TitleView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/activity_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_shape_rectangle"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1.注意用眼卫生"
+                    android:textColor="#ff6633"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutAc_tieshi_tx_title1"
+                    android:text="手机在使用中，特别要注意用眼卫生，尤其是在夜间使用时。有研究发现，长期使用手机已成为眼睛健康的隐形杀手。"
+                    android:textColor="#009966"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_shape_rectangle"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="2.注意手机辐射 "
+                    android:textColor="#ff6633"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutAc_tieshi_tx_title1"
+                    android:text="手机对人体的危害，最大的来源是手机所发出的辐射，手机辐射会引起神经衰弱，心悸胸闷、头晕眼花、精神不振等病症，有的重症如恶性脑瘤等也有可能因经常使用手机所引起。"
+                    android:textColor="#009966"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_shape_rectangle"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="3.影响睡眠质量 "
+                    android:textColor="#ff6633"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutAc_tieshi_tx_title1"
+                    android:text="手机辐射会让你延迟入睡6分钟，并将深度睡眠缩短8分钟。降低影响：睡前一小时关机、打电话时使用耳机或保持手机远离头部至少0.98英寸"
+                    android:textColor="#009966"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_shape_rectangle"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="4.影响听力健康 "
+                    android:textColor="#ff6633"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutAc_tieshi_tx_title1"
+                    android:text="31%的人用手机会出现耳鸣，71%的人每天平均打电话10分钟甚至更长，这会使耳鸣的几率增加2倍。如何避免耳鸣：尽量远离噪声，少在噪音大的地方打电话，减少通话的时间。"
+                    android:textColor="#009966"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_shape_rectangle"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="5.影响工作效率 "
+                    android:textColor="#ff6633"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutAc_tieshi_tx_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutAc_tieshi_tx_title1"
+                    android:text="人们专心工作、学习时如果被电话打断，需要最多15分钟才能重新投入。更严重的是，如果因电话铃声大作，人们不得不放下工作接听，则会对人的工作效率和心情造成严重影响。研究显示，工作中手机铃声对人的干扰可能会降低人的创造力和记忆力。 "
+                    android:textColor="#009966"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/about_activity_tieshi.xml -->
