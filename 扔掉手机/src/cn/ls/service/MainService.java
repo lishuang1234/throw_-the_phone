@@ -64,10 +64,9 @@ public class MainService extends Service {
 	private AlarmManager am;
 	private PendingIntent pi;
 	private long duration;
-   private String  sharePreKeyString;
+	private String sharePreKeyString;
+
 	/** Notification构造器 */
-
-
 
 	/** Notification的ID */
 	// private int notifyId = 100;
@@ -142,8 +141,6 @@ public class MainService extends Service {
 		cancleJiTimer();
 		setUpShared();// 初始化SharedPreference
 		getAppDate();// 读取今日时间
-
-		
 		checkJiCounts();// 将存储数据赋值在计时
 		startJiShi();
 		startAlarm();
@@ -180,7 +177,7 @@ public class MainService extends Service {
 		// c.set(2011, 05,28, 19,50, 0);
 		// 也可以写在一行里
 		duration = c.getTimeInMillis();
-		sharePreKeyString = month +"."+day;
+		sharePreKeyString = month + "." + day;
 		System.out.println("系統日期是：" + day + "..." + month);
 	}
 
@@ -243,7 +240,7 @@ public class MainService extends Service {
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		// TODO Auto-generated method stub
-		cancleDaoTimer();
+		// cancleDaoTimer();
 		currentMode = intent.getIntExtra("mode", -1);
 		int[] getTime = intent.getIntArrayExtra("time_count");
 		if (getTime != null)
@@ -257,8 +254,7 @@ public class MainService extends Service {
 			break;
 		case 1:
 			daoJiShi(1);
-			showNoti(1, "今日手机可用时长：" + Contant.refreshTime(timeCount)
-					+ "  可用时长：" + Contant.refreshTime(timeCount), "开始计时",
+			showNoti(1, "今日手机可用时长：" + Contant.refreshTime(mTimeCount), "开始计时",
 					"正在计时中");
 			break;
 		case 2:
@@ -279,7 +275,7 @@ public class MainService extends Service {
 
 	}
 
-	private void startAlarm() {
+	private void startAlarm() {// 设置零点清零
 		// TODO Auto-generated method stub
 		Intent alramIntent = new Intent(ComName.MY_ALARM);
 		pi = PendingIntent.getBroadcast(MainService.this, 1, alramIntent, 1);
@@ -300,7 +296,7 @@ public class MainService extends Service {
 			public void run() {
 				// TODO Auto-generated method stub
 				jiCounts++;
-				sendCastToMyInfor();
+				sendCastToMyInfor();// 发送给MyInfor
 				System.out.println("正在计时sendCastToMyInfor" + jiCounts);
 			}
 		};
@@ -402,7 +398,7 @@ public class MainService extends Service {
 		intent.putExtra("time_refresh", timeCount);
 		intent.putExtra("time_counts", mTimeCount);
 		sendBroadcast(intent);
-        
+
 	}
 
 	/**
@@ -449,7 +445,7 @@ public class MainService extends Service {
 			Dtimer.cancel();
 			Dtimer.purge();
 			Dtimer = null;
-			handler.removeMessages(currentMode);
+			// handler.removeMessages(currentMode);
 		}
 	}
 
@@ -487,9 +483,10 @@ public class MainService extends Service {
 				timeCount--;
 				if (timeCount < 0) {// 关闭倒计时与拦截功能
 					cancleDaoTimer();
-					//sendSuccessCastToForbid();
-					vibrator.vibrate(2000);
+					sendSuccessCastToForbid();
+					vibrator.vibrate(1000);
 					cancleLanTimer();
+					// ///////////////////////////////////////////////
 					showNoti(0, "今日手机已使用：" + Contant.refreshTime(jiCounts),
 							"恭喜治疗成功！", "手机正在使用中");
 				}
@@ -499,7 +496,7 @@ public class MainService extends Service {
 				timeCount--;
 				if (timeCount < 0) {// 開啓拦截功能
 					lanJie();// 进行拦截软件
-					vibrator.vibrate(2000);
+					vibrator.vibrate(1000);
 					cancleDaoTimer();
 					showNoti(1, "今日手机已使用：" + Contant.refreshTime(jiCounts),
 							"禁止使用手机", "手机正在使用中");
@@ -511,7 +508,7 @@ public class MainService extends Service {
 				if (timeCount < 0) {// 開啓拦截功能
 					if (modeTwoOnWork) {
 						lanJie();// 进行拦截软件//暂定
-						vibrator.vibrate(2000);
+						vibrator.vibrate(1000);
 						cancleDaoTimer();
 						timeCount = 60;
 						modeTwoOnWork = false;
@@ -528,8 +525,14 @@ public class MainService extends Service {
 				break;
 			}
 		}
+	}
 
-	
+	private void sendSuccessCastToForbid() {
+		// TODO Auto-generated method stub
+		System.out.println("治疗成功！！在MianService");
+		Intent intent = new Intent();
+		intent.setAction(ComName.ZHI_LIAO_SUCCESS);
+		sendBroadcast(intent);
 	}
 
 	/**
@@ -561,8 +564,8 @@ public class MainService extends Service {
 				} else if (action.equals(Intent.ACTION_SCREEN_ON)) {
 					daoJiShi(1);
 					showNoti(1, "今日手机可用时长：" + Contant.refreshTime(mTimeCount)
-							+ "  可用时长：" + Contant.refreshTime(timeCount), "开始计时",
-							"正在计时中");
+							+ "  可用时长：" + Contant.refreshTime(timeCount),
+							"开始计时", "正在计时中");
 				} else if (currentMode == 0) {// 模式0的关屏处理
 					if (action.equals(Intent.ACTION_SCREEN_OFF)) {
 						cancleLanTimer();
@@ -585,19 +588,22 @@ public class MainService extends Service {
 				checkJiCounts();
 				startJiShi();
 			} else if (action.equals(ComName.MY_ALARM)) {// 日期改变的广播
-				editorTimeCounts.putInt(Integer.toString(day), jiCounts);
-				editorTimeCounts.commit();
+				saveTimeCounts();
 				getAppDate();// 重新获取改变的时间
 				jiCounts = 0;
-			
+
 			} else if (action.equals(ComName.CANCLE_LAN_JIE)) {
 				cancleLanTimer();
+				if (intent.getBooleanExtra("work_state", true)) {
+					showNoti(0, "今日手机已使用：" + Contant.refreshTime(jiCounts),
+							"治疗成功！", "手机正在使用中");
+				}else
 				showNoti(0, "今日手机已使用：" + Contant.refreshTime(jiCounts),
-						"没有耐心的家伙", "手机正在使用中");
+						"放弃治疗！", "手机正在使用中");
 			} else if (action.equals(ComName.CANCLE_TIME)) {
 				cancleDaoTimer();
 				showNoti(2, "今日手机已使用：" + Contant.refreshTime(jiCounts),
-						"放弃治疗！", "手机正在使用中");
+						"真是懦弱！", "手机正在使用中");
 			}
 		}
 	}

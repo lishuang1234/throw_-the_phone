@@ -24,14 +24,13 @@ public class SetAlarmClock {
 
 	public SetAlarmClock(Context context, DBHelper dbHelper) {
 		this.context = context;
-		this.dbHelper = new DBHelper(context);
+		this.dbHelper = dbHelper;
 	}
 
 	public void setAlarm(String id) {
 
 		this.requestCode = Integer.valueOf(id);// 标示
 		alarmPlan = dbHelper.quary(id);
-
 		AlarmManager am = (AlarmManager) context
 				.getSystemService(Context.ALARM_SERVICE);
 		int[] durationCounts = Contant
@@ -81,6 +80,7 @@ public class SetAlarmClock {
 					intent, PendingIntent.FLAG_ONE_SHOT);// 如果当前系统中已经存在一个相同的PendingIntent对象，那么就将先将已有的PendingIntent取消，然后重新生成一个PendingIntent对象。
 			am.set(AlarmManager.RTC_WAKEUP,
 					getMillis(alarmPlan.getStartTime()), pi);
+
 		}
 
 	}

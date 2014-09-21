@@ -59,6 +59,9 @@ public class WarnInfor extends Activity implements OnClickListener {
 		enTrue = (Button) findViewById(R.id.warninforAc_btn_entrue);
 		daoJiShi = (TextView) findViewById(R.id.warninforAc_tx_daojishi);
 		enTrue.setOnClickListener(this);
+		if (currentMode == 2) {
+			daoJiShi.setVisibility(View.GONE);
+		}
 	}
 
 	@Override

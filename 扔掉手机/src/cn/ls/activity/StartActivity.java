@@ -21,7 +21,7 @@ import cn.ls.view.TitleView;
 public class StartActivity extends Activity implements OnClickListener,
 		OnValueChangeListener {
 	private ImageView circleImg;
-	private ImageButton smallButton;
+	private Button smallButton;
     private ImageView hourImg;
     private ImageView min1Img;
     private ImageView min2Img;
@@ -76,7 +76,7 @@ public class StartActivity extends Activity implements OnClickListener,
         hourImg = (ImageView)findViewById(R.id.startAc_img_hour);//小时
         min1Img = (ImageView)findViewById(R.id.startAc_img_min1);//分钟十位
         min2Img=(ImageView)findViewById(R.id.startAc_img_min2);//分钟个位
-		smallButton = (ImageButton) findViewById(R.id.small_btn);//执行按钮
+		smallButton = (Button) findViewById(R.id.small_btn);//执行按钮
 		changeBtn = (Button) findViewById(R.id.start_chang_btn);//切换按钮
 		txLarge = (TextView) findViewById(R.id.startAc_tx_large);
 		txSmall = (TextView) findViewById(R.id.startAc_tx_small);
@@ -201,19 +201,6 @@ public class StartActivity extends Activity implements OnClickListener,
 		}
 	}
 
-	class RemoteServiceBootReceiver extends BroadcastReceiver {
-
-		@Override
-		public void onReceive(Context arg0, Intent arg1) {
-
-			// TODO Auto-generated method stub
-			if (arg1.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
-				// service
-				Intent intent = new Intent(StartActivity.this,
-						MainService.class);
-				startService(intent);
-			}
-		}
-	}
+	
 
 }

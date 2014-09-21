@@ -86,10 +86,10 @@ public class ProgressBarView extends View {
 		paint.setColor(Color.GREEN);// 设置画笔颜色
 		if (progress == max) {
 			// canvas.drawText("完成", 165, 200, paint);
-			canvas.drawText("完成", circleX / 6 * 5, circleY * 11 / 12, paint);
+			canvas.drawText("完成", circleX*9/10 , circleY , paint);
 		} else {
 			canvas.drawText((int) ((float) progress / max * 100) + "%",
-					circleX / 6 * 5, circleY * 11 / 12, paint);
+					circleX*9/10, circleY , paint);
 		}
 	}
 

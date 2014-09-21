@@ -90,10 +90,11 @@ public class ListAdapter extends BaseAdapter {
 				.get(position)[1]));// 注意此处与之对应关系，计划时长;
 		holder.entrue.setOnCheckedChangeListener(new CheckBoxChangeListener(
 				position));
-		if (infor.get(position)[4].equals("1")) {// 判断是否启用计划
+		if ((Integer)infor.get(position)[4]==1) {// 判断是否启用计划
 			holder.entrue.setChecked(true);
 			// / setAlarm(position);
 			setAlarm.setAlarm((String) infor.get(position)[0]);//获得ID去设置闹钟
+			upDateDbNotOnPlan(position);
 		} else
 			holder.entrue.setChecked(false);
 		return convertView;
@@ -121,23 +122,34 @@ public class ListAdapter extends BaseAdapter {
 				boolean isChecked) {
 			// TODO Auto-generated method stub
 			if (isChecked) {// 更新数据库是否启用计划
-				System.out.println("更新adapter--position" + position);
-				dbHelper.upDate(new AlarmPlan((String) infor.get(position)[0],
-						(Integer) infor.get(position)[1], (String) infor
-								.get(position)[2], (Integer) infor
-								.get(position)[3], 1));
+			
+			   upDateDbIsOnPlan(position);
 				// // Position设置闹钟
 
 			} else {
-				System.out.println("更新禁止adapter--position" + position);
-				dbHelper.upDate(new AlarmPlan((String) infor.get(position)[0],
-						(Integer) infor.get(position)[1], (String) infor
-								.get(position)[2], (Integer) infor
-								.get(position)[3], 0));
+				upDateDbNotOnPlan(position);
 
 			}
-
+			
 		}
 	}
+	public void upDateDbIsOnPlan(int position) {
+		System.out.println("更新adapter--position" + position);
+		// TODO Auto-generated method stub
+		dbHelper.upDate(new AlarmPlan((String) infor.get(position)[0],
+				(Integer) infor.get(position)[1], (String) infor
+						.get(position)[2], (Integer) infor
+						.get(position)[3], 1));
+	}
 
+	public void upDateDbNotOnPlan(int position) {
+		// TODO Auto-generated method stub
+		System.out.println("更新禁止adapter--position" + position);
+		dbHelper.upDate(new AlarmPlan((String) infor.get(position)[0],
+				(Integer) infor.get(position)[1], (String) infor
+						.get(position)[2], (Integer) infor
+						.get(position)[3], 0));
+	}
+
+	
 }

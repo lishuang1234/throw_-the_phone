@@ -4,27 +4,24 @@
     android:layout_height="match_parent"
     android:background="@color/green_deep" >
 
-    <RelativeLayout
-        android:id="@+id/forbidAc_title"
-        android:layout_width="fill_parent"
-        android:layout_height="110dp" >
-        <TextView
-            android:id="@+id/forbidAc_title_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/forbid_title0"
-            android:textColor="@android:color/white"
-            android:textSize="25sp"
-            android:textStyle="bold" />
-    </RelativeLayout>
+    <TextView
+        android:id="@+id/forbidAc_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/forbid_title0"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/daojishi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/forbidAc_title_text"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="10dp"
         android:text="00:00:00"
         android:textColor="@android:color/white"
         android:textSize="25sp"
@@ -55,7 +52,7 @@
         android:layout_below="@+id/daojishi"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/ic_launcher" />>
     -->
 
 </RelativeLayout>

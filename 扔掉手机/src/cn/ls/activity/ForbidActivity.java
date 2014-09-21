@@ -35,7 +35,7 @@ public class ForbidActivity extends Activity implements OnClickListener {
 	// private int[] forbidIbtuBg;
 	private int chenFaMode;
 	private SharedPreferences sharedPreChenFaMode;
-    private BaseTool baseTool;
+	private BaseTool baseTool;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +63,7 @@ public class ForbidActivity extends Activity implements OnClickListener {
 				R.string.forbid_title1, R.string.forbid_title2 };
 		// forbidIbtuBg = new int[] { R.drawable.ic_btn_mode0_fail,
 		// R.drawable.ic_btn_mode1_fail, R.drawable.ic_btn_mode2_fail };
-        baseTool=new BaseTool(ForbidActivity.this);
+		baseTool = new BaseTool(ForbidActivity.this);
 
 	}
 
@@ -72,6 +72,7 @@ public class ForbidActivity extends Activity implements OnClickListener {
 		IntentFilter filter = new IntentFilter();
 		filter.addAction(ComName.REFRESH_DAO_TIME);
 		filter.addAction(ComName.TIME_COUNTS);
+		filter.addAction(ComName.ZHI_LIAO_SUCCESS);
 		registerReceiver(receiver, filter);
 	}
 
@@ -88,10 +89,12 @@ public class ForbidActivity extends Activity implements OnClickListener {
 		forbidIbtnFail.setOnClickListener(this);
 		daoJiShi = (TextView) findViewById(R.id.daojishi);
 		forbidTitleText = (TextView) findViewById(R.id.forbidAc_title_text);
-        progress = (ProgressBarView)findViewById(R.id.forbidAc_progressbar_circle);
-        progress.setCircleRadius(baseTool.getWidthPx()/2,baseTool.getHeightPx()/2);
+		progress = (ProgressBarView) findViewById(R.id.forbidAc_progressbar_circle);
+		progress.setCircleRadius(baseTool.getWidthPx() / 2,
+				baseTool.getHeightPx() / 2);
 		receiver = new Receiver();
-		System.out.println("width:"+baseTool.getWidthPx()+"--height:"+baseTool.getHeightPx());
+		System.out.println("width:" + baseTool.getWidthPx() + "--height:"
+				+ baseTool.getHeightPx());
 		forbidTitleText.setText(forbidTitle[currentMode]);// 设置显示的标题
 		if (chenFaMode == 2) {
 			forbidIbtnFail.setVisibility(View.GONE);
@@ -117,10 +120,12 @@ public class ForbidActivity extends Activity implements OnClickListener {
 	}
 
 	private void startAc(boolean state) {
+	System.out.println("是否成功治疗！！"+state);
 		Intent intent = new Intent();
 		intent.putExtra("work_state", state);
 		intent.setClass(ForbidActivity.this, WorkState.class);
 		startActivity(intent);
+		
 	}
 
 	/**
@@ -138,12 +143,7 @@ public class ForbidActivity extends Activity implements OnClickListener {
 	 */
 	private void refreshTime() {
 		// TODO Auto-generated method stub
-		if(timeRefresh == 0){
-			startAc(true);
-			
-			this.finish();
-			return;
-		}
+		
 		int hour, min, sec;
 		hour = timeRefresh / 3600;
 		if ((timeRefresh / 60) >= 60) {
@@ -158,7 +158,6 @@ public class ForbidActivity extends Activity implements OnClickListener {
 		System.out.println("ForbidAc倒计时" + "" + hour + ":" + min + ":" + sec);
 	}
 
-
 	class Receiver extends BroadcastReceiver {
 		int i = 0;
 		String action;
@@ -168,10 +167,12 @@ public class ForbidActivity extends Activity implements OnClickListener {
 			// TODO Auto-generated method stub
 			action = intent.getAction();
 			if (action.equals(ComName.REFRESH_DAO_TIME)) {
-			 timeCount = intent.getIntExtra("time_counts", 0);// 时间总数
+				timeCount = intent.getIntExtra("time_counts", 0);// 时间总数
 				timeRefresh = intent.getIntExtra("time_refresh", 0);// 每次刷新时间数
 				refreshTime();
-		
+			} else if (action.equals(ComName.ZHI_LIAO_SUCCESS)) {
+				ForbidActivity.	this.finish();
+				startAc(true);
 			}
 		}
 	}

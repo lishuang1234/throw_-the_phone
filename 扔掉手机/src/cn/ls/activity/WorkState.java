@@ -19,6 +19,7 @@ public class WorkState extends Activity implements OnClickListener {
 	private ShareSDKHelper sdkHelper;
 	private int chenFaMode;
 	private SharedPreferences sharedPreChenFaMode;
+	private boolean workState;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +27,7 @@ public class WorkState extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		sdkHelper = new ShareSDKHelper(WorkState.this);
 		setUpShare();
-		if (getIntent().getBooleanExtra("work_state", true)) {
+		if (workState = getIntent().getBooleanExtra("work_state", true)) {
 			setContentView(R.layout.workstate_success);
 			setUpSuccessView();
 		} else {
@@ -46,7 +47,7 @@ public class WorkState extends Activity implements OnClickListener {
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
 		super.onDestroy();
-		sdkHelper.stopSDK();
+		//sdkHelper.stopSDK();
 	}
 
 	@Override
@@ -92,6 +93,7 @@ public class WorkState extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		Intent intent = new Intent();
 		intent.setAction(ComName.CANCLE_LAN_JIE);
+		intent.putExtra("work_state", workState);
 		sendBroadcast(intent);
 	}
 
@@ -100,6 +102,7 @@ public class WorkState extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		if (v == btnWorkSuccessBack) {
 			this.finish();
+		
 		} else if (v == btnWorkFailYanLi) {
 			sdkHelper.shareToPlat("何弃疗！", "上帝都帮不了你！~");
 			this.finish();
