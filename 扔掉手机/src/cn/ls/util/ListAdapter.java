@@ -1,6 +1,7 @@
 package cn.ls.util;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 import android.app.Activity;
@@ -26,7 +27,11 @@ public class ListAdapter extends BaseAdapter {
 	private DBHelper dbHelper;
 	private AlarmPlan alarmPlan;
 	private SetAlarmClock setAlarm;
-
+	private Calendar c = Calendar.getInstance();
+	int hour = c.get(Calendar.HOUR_OF_DAY);
+	int min = c.get(Calendar.MINUTE);
+	int  nowTime = hour *3600 + min*60;
+	
 	public ListAdapter(Activity mActivity, ArrayList<Object[]> infor) {
 		this.mActivity = mActivity;
 		this.infor = infor;
@@ -90,11 +95,18 @@ public class ListAdapter extends BaseAdapter {
 				.get(position)[1]));// 注意此处与之对应关系，计划时长;
 		holder.entrue.setOnCheckedChangeListener(new CheckBoxChangeListener(
 				position));
+		System.out.println("NowTime:"+nowTime+"--OnPlanTime"+(Integer)infor.get(position)[3]);
 		if ((Integer)infor.get(position)[4]==1) {// 判断是否启用计划
-			holder.entrue.setChecked(true);
-			// / setAlarm(position);
-			setAlarm.setAlarm((String) infor.get(position)[0]);//获得ID去设置闹钟
-			upDateDbNotOnPlan(position);
+			if( (Integer)infor.get(position)[3]<nowTime){
+				holder.entrue.setChecked(false);
+				upDateDbNotOnPlan(position);
+			}else {
+				holder.entrue.setChecked(true);
+				// / setAlarm(position);
+				setAlarm.setAlarm((String) infor.get(position)[0]);//获得ID去设置闹钟
+//				upDateDbNotOnPlan(position);
+			}
+			
 		} else
 			holder.entrue.setChecked(false);
 		return convertView;

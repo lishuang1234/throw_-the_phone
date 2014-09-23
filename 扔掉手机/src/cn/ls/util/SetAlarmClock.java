@@ -2,6 +2,7 @@ package cn.ls.util;
 
 import java.util.Calendar;
 
+import android.R.integer;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -21,6 +22,7 @@ public class SetAlarmClock {
 	private int requestCode;// PendingIntent唯一标示否则会被覆盖掉
 	private DBHelper dbHelper;// 查询数据库助手类
 	private AlarmPlan alarmPlan;
+	
 
 	public SetAlarmClock(Context context, DBHelper dbHelper) {
 		this.context = context;
