@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/picker_btn_noentrue_press" android:state_pressed="true"></item>
     <item android:drawable="@drawable/picker_btn_noentrue" android:state_enabled="true"></item>
 
-</selector><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/drawable-mdpi/pickerac_btn_noentrue_selector.xml -->
+</selector><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/drawable-mdpi/pickerac_btn_noentrue_selector.xml -->

@@ -81,7 +81,7 @@ public class PlanListActivity extends Activity implements OnItemClickListener,
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		// TODO Auto-generated method stub
-		Toast.makeText(this, "被点击！！", Toast.LENGTH_SHORT).show();
+	//	Toast.makeText(this, "被点击！！", Toast.LENGTH_SHORT).show();
 		intentToPickerAc.putExtra("flag", 0);// 修改任務
 		intentToPickerAc.putExtra("currentID", (String) infor.get(position)[0]);
 		startActivity(intentToPickerAc);
@@ -103,6 +103,7 @@ public class PlanListActivity extends Activity implements OnItemClickListener,
 			this.finish();
 			break;
 		case R.id.planAc_ibtn_entrue:// //可以在这里实现提醒功能
+
 			this.finish();
 			break;
 		}

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@color/settingAc_item_press" android:state_pressed="true"></item>
-    <item android:drawable="@android:color/white" android:state_enabled="true"></item>
-
-</selector><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/drawable-mdpi/settingac_settingitem_selector.xml -->

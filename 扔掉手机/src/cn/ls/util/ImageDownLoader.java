@@ -17,7 +17,7 @@ public class ImageDownLoader {
 
 	private LruCache<String, Bitmap> mMemoryCache;// 缓存image
 	private SaveImageFile saveImageFile;
-	private Handler handler;
+	private  static  Handler handler;
 
 	public ImageDownLoader(Context context) {
 		saveImageFile = new SaveImageFile(context);
@@ -86,6 +86,7 @@ public class ImageDownLoader {
 		};
 		new DownloadPhoto(url).start();
 		// }
+
 		return null;
 	}
 

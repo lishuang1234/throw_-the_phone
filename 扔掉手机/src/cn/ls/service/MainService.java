@@ -39,7 +39,6 @@ public class MainService extends Service {
 	 * 1.对三种模式的倒计时支持 2.玩机时长的计时实现 3.存储玩机时长
 	 */
 	private Receiver receiver;
-
 	private Timer Dtimer;
 	private TimerTask Dtask;
 	private Handler handler;
@@ -63,7 +62,7 @@ public class MainService extends Service {
 	private int notifyId;
 	private AlarmManager am;
 	private PendingIntent pi;
-	private long duration;
+	private long duration;//距离下次重新计时的时间间隔，下次重新计时是在第二天o点
 	private String sharePreKeyString;
 
 	/** Notification构造器 */
@@ -288,7 +287,7 @@ public class MainService extends Service {
 	/**
 	 * 启动计时
 	 */
-	private synchronized void startJiShi() {
+	private   void startJiShi() {
 		// TODO Auto-generated method stub
 		Mtimer = new Timer();
 		Mtask = new TimerTask() {
@@ -420,7 +419,7 @@ public class MainService extends Service {
 	/**
 	 * 倒计时函数
 	 */
-	public synchronized void daoJiShi(final int mode) {
+	public   void daoJiShi(final int mode) {
 		Dtimer = new Timer(true);
 		Dtask = new TimerTask() {
 			@Override

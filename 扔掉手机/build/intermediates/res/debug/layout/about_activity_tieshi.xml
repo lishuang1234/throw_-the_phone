@@ -8,7 +8,7 @@
         android:id="@+id/aboutAc_tieshi_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/activities_title_back" >
+        android:background="@drawable/activity_title_background" >
     </cn.ls.view.TitleView>
 
     <ScrollView
@@ -169,4 +169,4 @@
         </LinearLayout>
     </ScrollView>
 
-</LinearLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/about_activity_tieshi.xml -->
+</LinearLayout><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/layout/about_activity_tieshi.xml -->

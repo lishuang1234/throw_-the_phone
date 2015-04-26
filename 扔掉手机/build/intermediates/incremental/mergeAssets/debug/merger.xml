@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="2" >
-
-    <dataSet config="main" >
-        <source path="D:\studioWorkSpace\扔掉手机\扔掉手机\assets" >
-            <file
-                name="ShareSDK.xml"
-                path="D:\studioWorkSpace\扔掉手机\扔掉手机\assets\ShareSDK.xml" />
-        </source>
-    </dataSet>
-    <dataSet config="debug" >
-        <source path="D:\studioWorkSpace\扔掉手机\扔掉手机\build-types\debug\assets" />
-    </dataSet>
-
-</merger>
+<merger version="3"><dataSet config="main"><source path="/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/assets"><file name="ShareSDK.xml" path="/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/assets/ShareSDK.xml"/></source></dataSet><dataSet config="debug"><source path="/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/build-types/debug/assets"/></dataSet></merger>

@@ -2,85 +2,86 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    android:orientation="vertical">
 
     <cn.ls.view.TitleView
         android:id="@+id/startAc_title"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/activities_title_back" >
-    </cn.ls.view.TitleView>
+        android:background="@drawable/activity_title_background"></cn.ls.view.TitleView>
 
     <RelativeLayout
+        android:id="@+id/startAc_rl_circle"
         android:layout_width="match_parent"
         android:layout_height="340dp"
         android:layout_below="@id/startAc_title"
-        android:id="@+id/startAc_rl_circle"
-  
-        >
+
+
+        android:layout_centerVertical="true">
 
         <ImageView
             android:id="@+id/start_btn"
             android:layout_width="match_parent"
-            android:layout_height="340dp"
-            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
             android:scaleType="fitXY"
             android:src="@drawable/ic_circle_large_yellow" />
 
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="90dp"
-    android:src="@drawable/digital_number_1"
-    android:layout_marginTop="132dp"
-    android:layout_marginLeft="70dp"
-    android:id="@+id/startAc_img_hour"/>
-   <ImageView
-       android:layout_width="50dp"
-       android:layout_height="90dp"
-       android:src="@drawable/digital_number_colon"
-       android:layout_alignTop="@id/startAc_img_hour"
-       android:layout_toRightOf="@id/startAc_img_hour"
-       android:layout_marginTop="5dp"
-       android:id="@+id/startAc_img_colon"
-       />
         <ImageView
+            android:id="@+id/startAc_img_hour"
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:src="@drawable/digital_number_0"
-           android:layout_alignParentRight="true"
-            android:layout_marginTop="132dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/digital_number_1" />
+
+        <ImageView
+            android:id="@+id/startAc_img_colon"
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@id/startAc_img_hour"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/startAc_img_hour"
+            android:src="@drawable/digital_number_colon" />
+
+        <ImageView
+            android:id="@+id/startAc_img_min2"
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_marginRight="70dp"
-            android:id="@+id/startAc_img_min2"/>
+            android:src="@drawable/digital_number_0" />
+
         <ImageView
+            android:id="@+id/startAc_img_min1"
             android:layout_width="50dp"
             android:layout_height="90dp"
-            android:src="@drawable/digital_number_3"
-            android:layout_toLeftOf="@id/startAc_img_min2"
             android:layout_alignTop="@id/startAc_img_min2"
-            android:id="@+id/startAc_img_min1"/>
-        <TextView
-            android:id="@+id/startAc_tx_large"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="@string/startAc_txLarge_mode1"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
-            android:layout_marginTop="70dp"
-            />
+            android:layout_toLeftOf="@id/startAc_img_min2"
+            android:src="@drawable/digital_number_3" />
 
         <TextView
             android:id="@+id/startAc_tx_small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@id/startAc_img_hour"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="90dp"
+            android:layout_marginBottom="20dp"
             android:text="@string/startAc_txSmall_mode1"
             android:textColor="@android:color/white"
-            android:textSize="12sp"
-            android:layout_below="@id/startAc_tx_large"
-            android:layout_marginTop="8dp"/>
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/startAc_tx_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/startAc_tx_small"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/startAc_txLarge_mode1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imgv"
@@ -88,10 +89,9 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/start_btn"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="38dp"
+            android:layout_marginBottom="50dp"
             android:src="@drawable/xiugai_btu" />
-
-        </RelativeLayout>
+    </RelativeLayout>
 
     <Button
         android:id="@+id/start_chang_btn"
@@ -102,7 +102,7 @@
         android:layout_marginLeft="80dp"
         android:background="@drawable/startac_btn_change" />
 
-    <ImageButton
+    <Button
         android:id="@+id/small_btn"
         android:layout_width="55dp"
         android:layout_height="55dp"
@@ -111,9 +111,4 @@
         android:layout_marginRight="80dp"
         android:background="@drawable/startac_btn_start" />
 
-
-
-
-
-
-</RelativeLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/start_activity.xml -->
+</RelativeLayout><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/layout/start_activity.xml -->

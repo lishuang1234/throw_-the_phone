@@ -9,7 +9,7 @@
         android:id="@+id/settingAc_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/activities_title_back" >
+        android:background="@drawable/activity_title_background" >
     </cn.ls.view.TitleView>
 
     <ScrollView

@@ -10,7 +10,7 @@
         android:id="@+id/myinforAc_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/activities_title_back" >
+        android:background="@drawable/activity_title_background" >
     </cn.ls.view.TitleView>
 
     <RelativeLayout
@@ -177,4 +177,4 @@
         android:orientation="horizontal" >
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/myinfor_activity.xml -->
+</RelativeLayout><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/layout/myinfor_activity.xml -->

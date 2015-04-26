@@ -8,9 +8,9 @@
         android:id="@+id/workstateAc_ibtn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/workstateAc_ibtn_success"
-        android:layout_marginLeft="39dp"
-        android:layout_toRightOf="@+id/workstateAc_ibtn_success"
+        android:layout_marginRight="61dp"
         android:background="@drawable/btn_share"
         android:src="@drawable/ic_btn_share_back" />
 
@@ -25,4 +25,4 @@
         android:background="@drawable/btn_share"
         android:src="@drawable/ic_btn_share2" />
 
-</RelativeLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/workstate_success.xml -->
+</RelativeLayout><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/layout/workstate_success.xml -->

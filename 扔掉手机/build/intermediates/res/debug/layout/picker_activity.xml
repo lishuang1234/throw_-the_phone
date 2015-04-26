@@ -10,7 +10,7 @@
         android:id="@+id/pickerAc_rl_title"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:background="@drawable/activities_title_back"
+        android:background="@drawable/activity_title_background"
         android:fitsSystemWindows="true" >
 
         <ImageButton
@@ -149,4 +149,4 @@
         </RelativeLayout>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/layout/picker_activity.xml -->
+</LinearLayout><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/layout/picker_activity.xml -->

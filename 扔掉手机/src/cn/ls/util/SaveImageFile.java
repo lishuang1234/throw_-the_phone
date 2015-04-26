@@ -14,7 +14,7 @@ import android.os.Environment;
 public class SaveImageFile {
 
 	private static String mSDRootPath = Environment
-			.getExternalStorageDirectory().getPath();// SD卡根目录
+            .getExternalStorageDirectory().getPath();// SD卡根目录
 	private static String mCacheRootPath = null;// 手机缓存根目录
 	private static final String FOLDER_NAME = "/PlatPhoto";// 文件夹名称
 

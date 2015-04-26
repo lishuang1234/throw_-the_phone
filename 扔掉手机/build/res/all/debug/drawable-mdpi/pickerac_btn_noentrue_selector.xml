@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/picker_btn_noentrue_press" android:state_pressed="true"></item>
-    <item android:drawable="@drawable/picker_btn_noentrue" android:state_enabled="true"></item>
-
-</selector><!-- From: file:/D:/Github_android/AndroidWorkSpace/扔掉手机/res/drawable-mdpi/pickerac_btn_noentrue_selector.xml -->

@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/tab_btn_bg_s" android:state_enabled="true" android:state_focused="true" android:state_pressed="false"></item>
     <item android:drawable="@drawable/tab_btn_bg_d" android:state_checked="true" android:state_enabled="true"></item>
 
-</selector><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/drawable-mdpi/btu_back.xml -->
+</selector><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/drawable-mdpi/btu_back.xml -->

@@ -23,11 +23,11 @@
     <!-- 圆角的程度 -->
     <gradient
         android:angle="90"
-        android:centerColor="#66CC33"
+        android:centerColor="#33CC66"
         android:centerX="0.5"
         android:centerY="0.5"
-        android:endColor="#66CC33"
-        android:startColor="#66CC33"
+        android:endColor="#33CC66"
+        android:startColor="#33CC66"
         android:type="linear" />
 
-</shape><!-- From: file:/D:/studioWorkSpace/扔掉手机/扔掉手机/res/drawable-mdpi/myinfor_shape_press.xml -->
+</shape><!-- From: file:/home/ls/androidDevelop/androidStudioWorkSpace/ls/throw_-the_phone/throw_-the_phone/扔掉手机/res/drawable-mdpi/myinfor_shape_press.xml -->
